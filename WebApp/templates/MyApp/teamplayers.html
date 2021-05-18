@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="pink">
+<div align="center">
+<b>{{team}}</b>:<br>
+{% for player in players %}
+<i>{{ player.first_name}}</i><br>
+{% endfor %}
+    </div>
+</body>
+</html>
