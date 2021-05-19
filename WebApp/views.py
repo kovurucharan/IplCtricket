@@ -114,6 +114,9 @@ def TeamPlayers(request,id=None):
 
 
 
+def KC(request):
+    return render(request,'MyApp/kc.html')
+
 
 
 

@@ -16,5 +16,6 @@ urlpatterns = [
     path('pdetail/<int:id>/',views.playerdetail),
     path('playerdelete/<int:id>/',views.deleteplayer),
     path('teamplayers/<int:id>',views.TeamPlayers),
+    path('kc/',views.KC),
 
 ]
